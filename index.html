@@ -12,6 +12,7 @@
     ></script>
   </head>
   <body>
+    <div id="cursor"></div>
     <div class="wrapper">
       <div class="container">
         <!------------------------------------ navbar ------------------------------------>
@@ -261,5 +262,14 @@
         <br />
       </div>
     </div>
+    <script>
+      "use strict";
+      var cursor = document.querySelector("#cursor");
+      var cursorListener = function cursorListener(event) {
+        cursor.style.top = event.y + "px";
+        cursor.style.left = event.x + "px";
+      };
+      window.addEventListener("mousemove", cursorListener);
+    </script>
   </body>
 </html>
