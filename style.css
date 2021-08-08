@@ -221,6 +221,8 @@ li {
 @media (max-width: 900px) {
   .hero-image {
     margin-top: 40px;
+    max-width: 400px;
+    margin: auto;
   }
   .hero-image .hero-image-container {
     width: 100%;
@@ -434,7 +436,7 @@ label {
   font-size: 28px;
 }
 
-/* -------------------------------------- social -------------------------------------- */
+/* -------------------------------------- project page -------------------------------------- */
 
 .social {
   padding: 20px 0;

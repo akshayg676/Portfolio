@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Akshay G</title>
+    <link rel="stylesheet" href="/style.css" type="text/css" />
+  </head>
+  <body>
+    <div id="cursor"></div>
+    <div class="wrapper">
+      <div class="container">
+        <!------------------------------------ navbar ------------------------------------>
+        <div class="navbar">
+          <div class="navbar-container">
+            <div class="site-logo">
+              <a href="#"><img src="/images/Logo-white.png" alt="" /></a>
+            </div>
+            <nav>
+              <li><a href="#project" class="site-projects">Projects</a></li>
+              <li><a href="#social" class="contact">Contact</a></li>
+              <li><a href="#skills" class="site-about">skills</a></li>
+            </nav>
+          </div>
+        </div>
+
+        <!-------------------------------------- divider -------------------------------------->
+        <div class="divider"></div>
+        <div class="divider"></div>
+        <!-------------------------------------- footer -------------------------------------->
+        <div class="footer">
+          <div class="navbar">
+            <div class="navbar-container">
+              <div class="site-copyright">© 2021</div>
+              <div class="site-coordinate">9.049659,76.852799</div>
+            </div>
+          </div>
+        </div>
+        <br />
+      </div>
+    </div>
+    <script>
+      "use strict";
+      var cursor = document.querySelector("#cursor");
+      var cursorListener = function cursorListener(event) {
+        cursor.style.top = event.y + "px";
+        cursor.style.left = event.x + "px";
+      };
+      window.addEventListener("mousemove", cursorListener);
+    </script>
+  </body>
+</html>
