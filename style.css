@@ -505,3 +505,35 @@ label {
     font-size: 15px;
   }
 }
+
+.projectConatiner {
+  padding: 1em 0.5em;
+  line-height: 29px;
+}
+.projectHeading {
+  text-align: center;
+  padding: 1em 0;
+}
+
+.projectDesc {
+}
+.projectGif {
+  margin: 10px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  min-width: 300px;
+}
+
+.projectTools {
+}
+
+.projectPad {
+  padding: 0.5em 0 1em 0;
+}
+
+.button {
+  display: flex;
+  justify-content: space-evenly;
+}
