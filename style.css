@@ -394,6 +394,10 @@ li {
   max-width: 1024px;
   margin-inline: auto;
 }
+.skillIcon {
+  height: 35px;
+  width: 35px;
+}
 
 @media screen and (min-width: 718px) {
   .skill-container {
@@ -515,8 +519,8 @@ label {
   padding: 1em 0;
 }
 
-.projectDesc {
-}
+/* .projectDesc {
+} */
 .projectGif {
   margin: 10px auto;
   display: flex;
@@ -526,8 +530,8 @@ label {
   min-width: 300px;
 }
 
-.projectTools {
-}
+/* .projectTools {
+} */
 
 .projectPad {
   padding: 0.5em 0 1em 0;
