@@ -234,6 +234,60 @@ li {
   }
 }
 
+/* -------------------------------------- contact -------------------------------------- */
+
+/* .contact {
+} */
+.contact form {
+  padding: 3em 0.5em;
+  max-width: 70rem;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.contact form .inputBox {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.contact form textarea,
+.contact form .inputBox input {
+  width: 100%;
+  padding: 0.7rem;
+  font-size: 1.4rem;
+  color: var(--text-color-1);
+  margin: 0.7rem 0;
+  background: var(--bg-color-1);
+  box-shadow: var(--box-shadow);
+  text-transform: none;
+  border-radius: 0.5rem;
+}
+
+.contact form textarea {
+  height: 20rem;
+  resize: none;
+}
+
+.contact form .inputBox input {
+  width: 49%;
+}
+
+.contactBtn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.5rem 0.8rem;
+  font-size: 1.7rem;
+  color: black;
+  background: #fff;
+  border-radius: 0.5rem;
+  cursor: pointer;
+}
+
+.contactBtn:hover {
+  letter-spacing: 0.2rem;
+}
+
 /* -------------------------------------- section-header -------------------------------------- */
 .section-header .section-header-container {
   display: flex;
@@ -478,12 +532,17 @@ label {
   }
 }
 
-@media (max-width: 980px) {
+/* @media (max-width: 980px) {
+  .social .social-container a {
+    font-size: 40px;
+  }
+} */
+@media (max-width: 827px) {
   .social .social-container a {
     font-size: 40px;
   }
 }
-@media (max-width: 827px) {
+@media (max-width: 643px) {
   .social .social-container a {
     font-size: 30px;
   }
@@ -500,23 +559,23 @@ label {
   .site-copyright {
     margin-bottom: 15px;
   }
-  .social .social-container a {
-    font-size: 25px;
-  }
 }
 @media (max-width: 500px) {
   .social .social-container a {
-    font-size: 22px;
+    font-size: 30px;
   }
 }
-@media (max-width: 425px) {
+@media (max-width: 475px) {
   .social .social-container a {
-    font-size: 18px;
+    font-size: 24px;
   }
 }
-@media (max-width: 346px) {
+@media (max-width: 381px) {
   .social .social-container a {
-    font-size: 15px;
+    font-size: 19px;
+  }
+  .contactBtn {
+    padding: 0.4rem 0.4rem;
   }
 }
 
