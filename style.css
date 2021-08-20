@@ -532,7 +532,7 @@ label {
 .projectHeading span {
   font-family: "Bigilla";
   border-bottom: 5px solid #fff;
-  font-size: 3.5em;
+  font-size: 4em;
 }
 
 /* .projectDesc {
@@ -595,7 +595,7 @@ label {
 }
 @media screen and (max-width: 383px) {
   .projectHeading span {
-    font-size: 2.8em;
+    font-size: 3.5em;
   }
   .projectSpan {
     font-size: 1.2em;
@@ -607,68 +607,99 @@ label {
     font-size: 1em;
   }
 }
-@media screen and (max-width: 520px) {
-  .projectHeading .projectHeadingChat {
-    font-size: 3em;
+@media screen and (max-width: 330px) {
+  .projectHeading span {
+    font-size: 3.2em;
   }
 }
-@media screen and (max-width: 447px) {
+
+/* chat */
+
+@media screen and (max-width: 464px) {
   .projectHeading .projectHeadingChat {
-    font-size: 2.5em;
+    font-size: 2.8em;
   }
 }
 @media screen and (max-width: 374px) {
   .projectHeading .projectHeadingChat {
+    font-size: 2.6em;
+  }
+}
+
+/* game */
+
+@media screen and (max-width: 700px) {
+  .projectHeading .projectHeadingGame,
+  .projectHeadingwild {
+    font-size: 3.2em;
+  }
+}
+@media screen and (max-width: 557px) {
+  .projectHeading .projectHeadingGame,
+  .projectHeadingwild {
+    font-size: 2.8em;
+  }
+}
+@media screen and (max-width: 490px) {
+  .projectHeading .projectHeadingGame,
+  .projectHeadingwild {
+    font-size: 2.4em;
+  }
+}
+@media screen and (max-width: 424px) {
+  .projectHeading .projectHeadingGame {
+    font-size: 2.2em;
+  }
+}
+@media screen and (max-width: 376px) {
+  .projectHeading .projectHeadingGame {
     font-size: 2em;
   }
 }
-@media screen and (max-width: 758px) {
+@media screen and (max-width: 356px) {
   .projectHeading .projectHeadingGame {
-    font-size: 3em;
+    font-size: 1.7em;
   }
 }
-@media screen and (max-width: 645px) {
-  .projectHeading .projectHeadingGame {
-    font-size: 2.5em;
-  }
-}
-@media screen and (max-width: 538px) {
-  .projectHeading .projectHeadingGame {
-    font-size: 2em;
-  }
-}
-@media screen and (max-width: 436px) {
-  .projectHeading .projectHeadingGame {
-    font-size: 1.8em;
-  }
-}
-@media screen and (max-width: 396px) {
-  .projectHeading .projectHeadingGame {
-    font-size: 1.4em;
-  }
-}
-@media screen and (max-width: 662px) {
-  .projectHeading .projectHeadingTravel {
-    font-size: 3em;
+
+/* wild guess */
+
+@media screen and (max-width: 671px) {
+  .projectHeading .projectHeadingwild {
+    font-size: 3.4em;
   }
 }
 @media screen and (max-width: 569px) {
+  .projectHeading .projectHeadingwild {
+    font-size: 2.8em;
+  }
+}
+@media screen and (max-width: 471px) {
+  .projectHeading .projectHeadingwild {
+    font-size: 2.2em;
+  }
+}
+@media screen and (max-width: 373px) {
+  .projectHeading .projectHeadingwild {
+    font-size: 1.8em;
+  }
+}
+
+/* travelsio */
+
+@media screen and (max-width: 560px) {
+  .projectHeading .projectHeadingTravel {
+    font-size: 3.2em;
+  }
+}
+@media screen and (max-width: 435px) {
   .projectHeading .projectHeadingTravel {
     font-size: 2.5em;
   }
 }
-@media screen and (max-width: 474px) {
+
+@media screen and (max-width: 347px) {
   .projectHeading .projectHeadingTravel {
-    font-size: 2em;
-  }
-}
-@media screen and (max-width: 379px) {
-  .projectHeading .projectHeadingTravel {
-    font-size: 1.8em;
-  }
-}
-@media screen and (max-width: 345px) {
-  .projectHeading .projectHeadingTravel {
-    font-size: 1.6em;
+    font-size: 2.2em;
   }
 }
