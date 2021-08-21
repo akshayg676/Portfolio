@@ -314,6 +314,22 @@ li {
   font-size: 36px;
 }
 
+.resumeBtn {
+  margin-top: 1rem;
+  display: inline-block;
+  padding: 0.5rem;
+  font-size: 1.7rem;
+  color: #fff;
+  background: black;
+  border-radius: 0.5rem;
+  border: 2px solid #fff;
+  cursor: pointer;
+}
+
+.resumeBtn:hover {
+  letter-spacing: 0.2rem;
+}
+
 @media (max-width: 900px) {
   .about .about-container {
     width: 100%;
@@ -532,11 +548,6 @@ label {
   }
 }
 
-/* @media (max-width: 980px) {
-  .social .social-container a {
-    font-size: 40px;
-  }
-} */
 @media (max-width: 827px) {
   .social .social-container a {
     font-size: 40px;
