@@ -12,8 +12,17 @@
       crossorigin="anonymous"
     ></script>
   </head>
-  <body>
+  <body onload="myFunction()">
+    <!-------------------------------------- preloader -------------------------------------->
+
+    <div id="loading"></div>
+
+    <!-------------------------------------- cursor -------------------------------------->
+
     <div id="cursor"></div>
+
+    <!------------->
+
     <div class="wrapper">
       <div class="container">
         <!------------------------------------ navbar ------------------------------------>
@@ -374,7 +383,15 @@
       </div>
     </div>
     <script>
-      "use strict";
+      // preloading script
+      var preloader = document.getElementById("loading");
+
+      function myFunction() {
+        preloader.style.display = "none";
+      }
+      //
+
+      ("use strict");
       var cursor = document.querySelector("#cursor");
       var cursorListener = function cursorListener(event) {
         cursor.style.top = event.y + "px";
